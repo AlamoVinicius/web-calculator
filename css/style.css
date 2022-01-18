@@ -1,0 +1,57 @@
+
+.container {
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 40px 0px;
+}
+
+.row {
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/pexels-hassan-ouajbir-804130.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    opacity: 80%;
+    margin-right: 20%;
+}
+
+header {
+    opacity: 90%;
+}
+
+
+form {
+    background-color: rgba(255, 255, 255, 0.842);
+    
+}
+
+form h1 {
+    text-align: center;
+    font:normal 2em fantasy;
+}
+
+
+#btn-calculator {
+    border: 2px solid black;
+    width: 200px;
+    border-radius: 25px;
+    margin: auto;
+    transition: .5s;
+}
+
+#btn-calculator:hover {
+    background-color: rgb(30, 30, 31);
+    color: white;
+}
+
+
