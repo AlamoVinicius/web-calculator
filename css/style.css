@@ -3,6 +3,7 @@
     margin-top: 50px;
     border-radius: 30px;
     padding: 40px 0px;
+    text-align: center;
 }
 
 .row {
@@ -54,4 +55,22 @@ form h1 {
     color: white;
 }
 
+#area-result {
+    font-family: monospace;
+    display: none;
+    border: 1px solid black;
+    background-color: lightgray;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 25px;
+    text-align: start;
+}
+
+
+.final-result {
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+}
 

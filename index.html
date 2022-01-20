@@ -24,16 +24,14 @@
   </header>
 
 
-
+  <!--Parte do radio input-->
   <form class="container">
     <div class="row">
       <div class="col-md-12">
         <h1>Calculadora para Drivers</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni aut omnis tempore esse cupiditate deleniti
-          accusantium, veritatis neque atque suscipit corporis doloremque officia ea, cum expedita illo tenetur
-          dolores nobis!</p>
+        <p>Insira os valores corretamentes para uma melhor precisão no resultado</p>
         <div class="form-check form-check-inline mb-3" id="form_input">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="Gasoina" checked>
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" value="Gasolina" checked>
           <label class="form-check-label" for="flexRadioDefault1">
             gasolina
           </label>
@@ -52,17 +50,17 @@
         </div>
       </div>
 
-
+      <!--inputs de entrada-->
       <div class="col-sm-6">
 
         <div class="mb-3 row align-items-center">
           <div class="col-sm-7">
-            <label for="preco_gasolina" class="col-form-label">preço atual do combústivel selecionado: </label>
+            <label for="fuel-price" class="col-form-label">preço atual do combústivel selecionado: </label>
           </div>
           <div class="col-sm-5">
             <div class="input-group input-group-sm">
               <span class="input-group-text">R$</span>
-              <input type="number" class="form-control ">
+              <input id="fuel-price" type="number" class="form-control">
               <span class="input-group-text">,00</span>
             </div>
           </div>
@@ -72,12 +70,12 @@
       <div class="col-sm-6">
         <div class="mb-3 row align-items-center">
           <div class="col-sm-9">
-            <label for="preco_gasolina" class="col-form-label">Autonomia do veículo com o combustível
+            <label for="autonomia" class="col-form-label">Autonomia do veículo com o combustível
               selecionado: </label>
           </div>
           <div class="col-sm-3">
             <div class="input-group input-group-sm">
-              <input type="number" class="form-control">
+              <input id="autonomia" type="number" class="form-control">
               <span class="input-group-text">km/l</span>
             </div>
           </div>
@@ -87,12 +85,12 @@
       <div class="col-sm-6">
         <div class="row mb-3 align-items-center">
           <div class="col-sm-7">
-            <label for="preco_gasolina" class="col-form-label">Valor total ganho no dia ou na corrida: </label>
+            <label for="valor-total" class="col-form-label">Valor total ganho no dia ou na corrida: </label>
           </div>
           <div class="col-sm-5">
             <div class="input-group input-group-sm">
               <span class="input-group-text">R$</span>
-              <input type="number" class="form-control form-control">
+              <input id="valor-total" type="number" class="form-control">
               <span class="input-group-text">,00</span>
             </div>
           </div>
@@ -102,12 +100,12 @@
       <div class="col-sm-6">
         <div class="row mb-3 align-items-center">
           <div class="col-sm-9">
-            <label for="preco_gasolina" class="col-form-label">Quilometragem total percorrida no dia ou
+            <label for="km-total" class="col-form-label">Quilometragem total percorrida no dia ou
               corrida:</label>
           </div>
           <div class="col-md-3">
             <div class="input-group input-group-sm">
-              <input type="number" class="form-control form-control">
+              <input id="km-total" type="number" class="form-control">
               <span class="input-group-text">km</span>
             </div>
           </div>
