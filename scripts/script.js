@@ -19,7 +19,7 @@ function clique() {
     area_resposta.innerHTML = `<p>erro, valores incorretos</p>`
   } else {
     area_resposta.innerHTML = ''
-    area_resposta.innerHTML += `<p>Resultado para ${tipo_combustivel}</p>`
+    area_resposta.innerHTML += `<h2>Resultado para ${tipo_combustivel}</h2>`
     area_resposta.innerHTML += `<p>Ganho bruto...........................: R$ ${valor_total.toFixed(2).replace('.', ',')}</p>`
     area_resposta.innerHTML += `<p>Ganho por km..........................: R$ ${ganho_km.toFixed(2).replace('.', ',')}</p>`
     area_resposta.innerHTML += `<p>Gasto com o combustível...............: R$ ${gasto_combustivel.toFixed(2).replace('.', ',')}</p>`

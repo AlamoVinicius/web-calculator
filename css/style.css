@@ -1,9 +1,9 @@
 
 .container {
-    margin-top: 50px;
     border-radius: 30px;
     padding: 40px 0px;
     text-align: center;
+    margin-top: 100px;
 }
 
 .row {
@@ -18,18 +18,20 @@ body {
     background-attachment: fixed;
 }
 
-nav img {
+.my-logo {
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    opacity: 80%;
     margin-right: 20%;
 }
 
-header {
-    opacity: 90%;
+.calculator {
+    color: white;
+    font-size: 60px;
+    position: absolute;
+    left: 47%;
+    background-color: rgb(29, 29, 163);
 }
-
 
 form {
     background-color: rgba(255, 255, 255, 0.842);
@@ -67,6 +69,13 @@ form h1 {
     text-align: start;
 }
 
+#area-result h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 20px;
+}
+
 
 .final-result {
     font-size: 1.3em;
@@ -74,3 +83,17 @@ form h1 {
     text-align: center;
 }
 
+
+footer {
+    background-color: black;
+    color: white;
+    
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
