@@ -97,3 +97,28 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
+
+@media (max-width: 800px) {
+    .input-group-text {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    
+    #area-result p {
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+
+    .input-group {
+        width: 200px;
+    }
+
+    .input-group-text {
+        display: block;
+    }
+}
+
