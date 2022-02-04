@@ -30,7 +30,7 @@ body {
     font-size: 60px;
     position: absolute;
     left: 47%;
-    background-color: rgb(29, 29, 163);
+    background-color: #1d1da3;
 }
 
 form {
@@ -44,9 +44,8 @@ form {
 
 form h1 {
     text-align: center;
-    font: normal 2em fantasy;
-    color: rgba(42, 42, 221, 0.76);
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(32, 80, 240);
 }
 
 
@@ -60,8 +59,8 @@ form h1 {
 }
 
 #btn-calculator:hover {
-    background-color: rgb(30, 30, 31);
-    color: #fff;
+    border-color: #1d1da3;
+    background-color: transparent;
 }
 
 #area-result {
