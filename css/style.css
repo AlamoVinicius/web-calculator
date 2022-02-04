@@ -34,27 +34,34 @@ body {
 }
 
 form {
-    background-color: rgba(255, 255, 255, 0.842);
-    
+    backdrop-filter: blur(4px) saturate(180%);
+    -webkit-backdrop-filter: blur(4px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.637);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    color: #f8f8f8;
 }
 
 form h1 {
     text-align: center;
-    font:normal 2em fantasy;
+    font: normal 2em fantasy;
+    color: rgba(42, 42, 221, 0.76);
+
 }
 
 
 #btn-calculator {
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     width: 200px;
     border-radius: 25px;
     margin: auto;
     transition: .5s;
+    color: #fff;
 }
 
 #btn-calculator:hover {
     background-color: rgb(30, 30, 31);
-    color: white;
+    color: #fff;
 }
 
 #area-result {
@@ -67,6 +74,7 @@ form h1 {
     margin-top: 30px;
     border-radius: 25px;
     text-align: start;
+    color: black;
 }
 
 #area-result h2 {
@@ -87,7 +95,11 @@ form h1 {
 footer {
     background-color: black;
     color: white;
-    
+    margin-top: 20px;
+}
+
+footer > .container {
+    margin-top: 40px;
 }
 
 footer a {
